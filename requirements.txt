@@ -1,8 +1,22 @@
-
+# Core packages
 streamlit
 openai
-langchain
-langchain_openai
-langchain_community
-faiss-cpu
 tiktoken
+Pillow
+
+# LangChain main package
+langchain==0.1.152
+
+# FAISS for vector search
+faiss-cpu
+
+# PDF handling
+pypdf
+
+# Torch & sentence-transformers (needed for embeddings)
+torch
+sentence-transformers
+
+# LangChain community & OpenAI embeddings (not on PyPI, install via GitHub)
+git+https://github.com/langchain-ai/langchain-community.git
+git+https://github.com/hwchase17/langchain-OpenAI.git
