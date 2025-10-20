@@ -1,0 +1,47 @@
+# ==============================
+# 🔐 SECURITY / ENVIRONMENT FILES
+# ==============================
+.env
+
+# ==============================
+# 🧠 VECTOR DATABASES / INDEX FILES
+# ==============================
+faiss_index/
+faiss_indices/
+indexes/
+index/
+*.faiss
+*.pkl
+*.bin
+
+# ==============================
+# 📂 UPLOADED FILES
+# ==============================
+uploaded_pdfs/
+uploads/
+books/
+*.pdf
+
+# ==============================
+# 🧾 LOG FILES
+# ==============================
+logs/
+*.log
+
+# ==============================
+# ⚙ CACHE / TEMP FILES
+# ==============================
+_pycache_/
+.cache/
+.streamlit/
+.venv/
+venv/
+temp/
+tmp/
+
+# ==============================
+# 🧑‍💻 OS / IDE FILES
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
